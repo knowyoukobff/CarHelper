@@ -14,7 +14,7 @@
             <ColumnDefinition Width="43*"/>
         </Grid.ColumnDefinitions>
         <Label Content="    AutoHelper" FontSize="50" FontWeight="Bold" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="782" Background="Black" Foreground="Red" Margin="0,0,0,0" Grid.ColumnSpan="2"/>
-        <Image Source="C:\Users\Knowyoukobff\source\repos\CarHelper\title_bmw.png" Margin="154,0,120,273" Grid.Column="1" RenderTransformOrigin="0.481,0.856" />
+        <Image Source="C:\Users\Knowyoukobff\source\repos\CarHelper\Images\title_bmw.png" Margin="154,0,120,273" Grid.Column="1" RenderTransformOrigin="0.481,0.856" />
         <TextBox IsReadOnly="True" Name="ratedEngines" HorizontalAlignment="Left" Height="225" Margin="10,104,0,0" TextWrapping="Wrap" Text="Najlepiej oceniane silniki:" VerticalAlignment="Top" Width="227" BorderBrush="Black"/>
         <TextBox IsReadOnly="True" HorizontalAlignment="Left" Height="225" Margin="252,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="530" BorderBrush="Black" Grid.ColumnSpan="2"/>
         <Label Content="Szukaj samochodu:" HorizontalAlignment="Left" Margin="183,115,0,0" VerticalAlignment="Top" Grid.Column="1"/>

@@ -37,7 +37,7 @@ namespace CarHelper
             connection = new SqlConnection(conn);
             connection.Open();
             ratedEngines.Text += Environment.NewLine + Environment.NewLine;
-            SqlCommand cmdRate = new SqlCommand("SELECT carBrand, carModel, engineDesignation, (rate/amountOfvotes) FROM carsRating INNER JOIN Cars ON carsRating.versionID = Cars.CarID order by (rate/amountOfvotes) DESC", connection);
+            SqlCommand cmdRate = new SqlCommand("SELECT carBrand, carModel, engineDesignation, ROUND(rate/amountOfvotes, 1) FROM carsRating INNER JOIN Cars ON carsRating.versionID = Cars.CarID order by (rate/amountOfvotes) DESC", connection);
             SqlDataReader sdrRate = cmdRate.ExecuteReader();
             int a = 1;
             while (sdrRate.Read())

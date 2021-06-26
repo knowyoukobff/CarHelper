@@ -16,7 +16,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Label Content="    AutoHelper" FontSize="50" FontWeight="Bold" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="792" Background="Black" Foreground="Red" Margin="0,0,0,0" Grid.ColumnSpan="2"/>
-        <Image Source="C:\Users\Knowyoukobff\source\repos\CarHelper\title_bmw.png" Margin="323,0,125,102" Grid.Column="1" />
+        <Image Source="C:\Users\Knowyoukobff\source\repos\CarHelper\Images\title_bmw.png" Margin="323,0,125,102" Grid.Column="1" />
         <RadioButton Name="rad1" GroupName="rateRadio" Content="1" Grid.Column="1" HorizontalAlignment="Left" Margin="200,171,0,0" VerticalAlignment="Top" Grid.Row="1" Height="15" Width="25"/>
         <RadioButton Name="rad2" GroupName="rateRadio" Content="2" Grid.Column="1" HorizontalAlignment="Left" Margin="250,171,0,0" VerticalAlignment="Top" Grid.Row="1" Height="15" Width="25"/>
         <RadioButton Name="rad3" GroupName="rateRadio" Content="3" Grid.Column="1" HorizontalAlignment="Left" Margin="300,171,0,0" VerticalAlignment="Top" Grid.Row="1" Height="15" Width="25"/>
