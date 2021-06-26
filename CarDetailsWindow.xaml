@@ -24,13 +24,13 @@
         <RadioButton Name="rad5" GroupName="rateRadio" Content="5" Grid.Column="1" HorizontalAlignment="Left" Margin="400,171,0,0" VerticalAlignment="Top" Grid.Row="1" Height="15" Width="25"/>
         <Button Content="Oceń" Name="rateBtn" Grid.Column="1" HorizontalAlignment="Left" Margin="450,168,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Row="1" Height="20"/>
         <Label Content="" Name="titleLabel" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" Width="792" FontWeight="Bold" FontSize="40" Grid.ColumnSpan="2" Height="63"/>
-        <Label FontWeight="Bold" Content="Wersja nadwozia :" Name="bodyLabel" HorizontalAlignment="Left" Margin="133,175,0,0" VerticalAlignment="Top" Grid.RowSpan="2" Grid.Column="1" Height="26" Width="217"/>
-        <Label FontWeight="Bold" Content="Pojemność [cm3] :" Name="capacityLabel" HorizontalAlignment="Left" Margin="133,27,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Height="26" Width="217"/>
-        <Label FontWeight="Bold" Content="Moc [KM] :" Name="horseLabel" HorizontalAlignment="Left" Margin="133,78,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Height="26" Width="217"/>
-        <Label FontWeight="Bold" Content="Moment obrotowy [Nm] :" Name="torqueLabel" HorizontalAlignment="Left" Margin="133,0,0,82" VerticalAlignment="Bottom" Grid.Row="1" Grid.Column="1" Height="26" Width="217"/>
-        <Label FontWeight="Bold" Content="Przyspieszenie (0-100km/h) :" Name="accLabel" HorizontalAlignment="Left" Margin="432,175,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.RowSpan="2" Height="26" Width="204" RenderTransformOrigin="1.341,0.458"/>
-        <Label FontWeight="Bold" Content="Prędkość maksymalna :" Name="speedLabel" HorizontalAlignment="Left" Margin="432,27,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" Height="26" Width="204"/>
-        <Label FontWeight="Bold" Content="Średnie spalanie [L/100km] :" Name="fuelLabel" HorizontalAlignment="Left" Margin="432,78,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" Height="26" Width="204"/>
-        <Label FontWeight="Bold" Content="Ilość oleju [L] :" Name="oilLabel" HorizontalAlignment="Left" Margin="432,120,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" Height="26" Width="204"/>
+        <Label FontWeight="Bold" Content="Wersja nadwozia :" Name="bodyLabel" HorizontalAlignment="Left" Margin="140,180,0,0" VerticalAlignment="Top" Grid.RowSpan="2" Grid.Column="1" Height="26" Width="217"/>
+        <Label FontWeight="Bold" Content="Pojemność [cm3] :" Name="capacityLabel" HorizontalAlignment="Left" Margin="140,30,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Height="26" Width="217"/>
+        <Label FontWeight="Bold" Content="Moc [KM] :" Name="horseLabel" HorizontalAlignment="Left" Margin="140,70,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Height="26" Width="217"/>
+        <Label FontWeight="Bold" Content="Moment obrotowy [Nm] :" Name="torqueLabel" HorizontalAlignment="Left" Margin="140,0,0,92" VerticalAlignment="Bottom" Grid.Row="1" Grid.Column="1" Height="26" Width="217"/>
+        <Label FontWeight="Bold" Content="Przyspieszenie (0-100km/h) :" Name="accLabel" HorizontalAlignment="Left" Margin="432,180,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.RowSpan="2" Height="26" Width="204" RenderTransformOrigin="1.341,0.458"/>
+        <Label FontWeight="Bold" Content="Prędkość maksymalna :" Name="speedLabel" HorizontalAlignment="Left" Margin="432,30,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" Height="26" Width="204"/>
+        <Label FontWeight="Bold" Content="Średnie spalanie [L/100km] :" Name="fuelLabel" HorizontalAlignment="Left" Margin="432,70,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" Height="26" Width="204"/>
+        <Label FontWeight="Bold" Content="Ilość oleju [L] :" Name="oilLabel" HorizontalAlignment="Left" Margin="432,110,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" Height="26" Width="204"/>
     </Grid>
 </Window>
